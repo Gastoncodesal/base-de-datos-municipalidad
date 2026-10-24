@@ -1,0 +1,32 @@
+{
+  "detalle_reclamo": [
+    {
+      "reclamo_id": 12,
+      "fotos": ["https://fotos.muni.gob/reclamo12_1.jpg"],
+      "datos_especificos": {
+        "tipo_canieria": "PVC",
+        "hay_inundacion": true
+      }
+    },
+    {
+      "reclamo_id": 15,
+      "fotos": [],
+      "datos_especificos": {
+        "numero_poste": "P-2045",
+        "luz_apagada_desde": "2026-10-18"
+      }
+    }
+  ],
+  "detalle_intervencion": [
+    {
+      "intervencion_id": 7,
+      "reclamo_id": 12,
+      "observaciones": "Se cortó el agua de la cuadra para reparar.",
+      "fotos": ["https://fotos.muni.gob/interv7_1.jpg"],
+      "datos_adicionales": {
+        "materiales": ["caño 40mm", "abrazadera"],
+        "horas_trabajadas": 3
+      }
+    }
+  ]
+}
